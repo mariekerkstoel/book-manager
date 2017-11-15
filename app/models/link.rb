@@ -1,4 +1,3 @@
-require 'sinatra'
 require 'dm-postgres-adapter'
 require 'data_mapper'
 
