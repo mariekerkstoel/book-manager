@@ -16,6 +16,7 @@ feature 'Click on \'add new link\' to display a form' do
   end
 end
 
+
 # feature 'Fill in the form to add a new link to database' do
 #   scenario 'After filling in the form the link gets added to the list' do
 #   end

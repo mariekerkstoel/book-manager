@@ -9,6 +9,7 @@ class Link
   property :id, Serial
   property :title, String
   property :url, Text
+  property :tag, String
 end
 
 
