@@ -1,0 +1,7 @@
+<ul id='links'>
+  <% @links.each do |link| %>
+    <li><a href="<%=link.url%>"><%=link.title%></a> Tags: <% link.tags.each do |tag| %>
+      <%= tag.name %> 
+    <% end %> </li>
+  <% end %>
+</ul>

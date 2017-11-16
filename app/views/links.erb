@@ -1,9 +1,9 @@
 <ul id='links'>
   <% @links.each do |link| %>
-    <li><a href="<%=link.url%>"><%=link.title%></a> Tags: <%= link.tag %></li>
+    <li><a href="<%=link.url%>"><%=link.title%></a> Tags: <%= link.tags[0].name %></li>
   <% end %>
 </ul>
 
 <form action='/links/new'>
-<input type=submit value='Add new link'>
+  <input type=submit value='Add new link'>
 </form>
