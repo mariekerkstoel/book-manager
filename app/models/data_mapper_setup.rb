@@ -9,5 +9,3 @@ DataMapper.setup(:default, ENV['DATABASE_URL'] || "postgres://localhost/bookmark
 DataMapper::Logger.new($stdout, :debug)
 
 DataMapper.finalize
-
-DataMapper.auto_upgrade!
